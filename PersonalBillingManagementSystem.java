@@ -41,7 +41,7 @@ public class PersonalBillingManagementSystem {
                     System.out.println("无效选项，请重新输入。");
             }
         }
-    }
+    }//好麻烦的作业
 
     private static void showMenu() {
         System.out.println("=================================");
