@@ -13,7 +13,7 @@ public class PersonalBillingManagementSystem {
         while (running) {
             showMenu();
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine(); 
             switch (choice) {
                 case 1:
                     recordIncome();
@@ -41,7 +41,7 @@ public class PersonalBillingManagementSystem {
                     System.out.println("无效选项，请重新输入。");
             }
         }
-    }
+    }//好麻烦的作业
 
     private static void showMenu() {
         System.out.println("=================================");
@@ -103,7 +103,7 @@ public class PersonalBillingManagementSystem {
         System.out.println("支出已成功记录！");
         promptReturnToMenu();
     }
-
+//emmmmmm
     private static void viewAllBills() {
         System.out.println("=================================");
         System.out.println("所有账单：");
